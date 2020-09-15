@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Roche Papier Ciseaux</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="rochePapierCiseau.css">
+</head>
+<body>
+  <div class="all">
+    <div class="screen">
+      <div class="form">
+
+        <div class="nickname">
+          <label for="name">NickName</label>
+          <input class="input" id="nickname" name="name" class="nom">
+        </div>
+
+        <div class="hands">
+          <label for="color">
+            <label><input type="radio" name="gender" id="hand1" value="1">👋</label>
+
+            <label><input type="radio" name="gender" id="hand2" value="2">👋🏻</label>
+
+            <label><input type="radio" name="gender" id="hand3" value="3">👋🏽</label>
+
+            <label><input type="radio" name="gender" id="hand4" value="4">👋🏿</label><br>
+          </label>
+        </div>
+
+        <div class="selection">
+          <label for="selection">Select You WeaPon•</label><br>
+          <select name="wepon" class="input" id="weapon">
+            <option value="0">🥔</option>
+            <option value="1">📄</option>
+            <option value="2">✂️</option>
+          </select>
+        </div>
+        <button class="btn">Play if You Dare</button>
+      </div>
+      </form>
+
+      <div class="game none">
+        <div class="teams">
+          <div class="player1">
+            <h1 id="playerName"></h1>
+            <h2 id="handPlayer"></h2>
+          </div>
+          <div class="opponent">
+            <h1 id="cpu">CPU</h1>
+            <h2 id="handCpu"></h2>
+          </div>
+        </div>
+        <div class="endscreen">
+          <div class="resultat">
+            <h1 class="evenement"></h1>
+          </div>
+          <button class="btnReplay">BetterLuck Next Time</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script defer src="rochePapierCiseau.js"></script>
+
+</html>

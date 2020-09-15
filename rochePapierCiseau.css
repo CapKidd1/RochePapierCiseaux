@@ -1,0 +1,121 @@
+body {
+    background-color: #272635;
+  }
+  
+  .screen {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form {
+    background-color: #f0bcd4;
+    border-radius: 20px;
+    height: 300px;
+    width: 280px;
+    padding: 20px;
+    margin: 100px;
+  }
+  
+  .input {
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    opacity: 35%;
+    border: 0px;
+  }
+  
+  .nickname {
+    margin-top: 20px;
+  }
+  
+  .hands {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  
+  .selection {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    height: 40px;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 25px;
+  }
+  
+  .game {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .teams {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .player1 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+  
+  #playerName {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .opponent {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    flex-flow: column;
+  }
+  
+  #cpu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resultat {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 2em;
+  }
+  
+  .btnReplay {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #handPlayer {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+  }
+  
+  #handCpu {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+  }
+  
+  .none {
+    display: none;
+  }
+  
